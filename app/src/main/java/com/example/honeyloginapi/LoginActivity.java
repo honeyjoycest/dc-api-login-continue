@@ -22,6 +22,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private EditText username,password;
     private Button loginBtn;
+
     public RetrofitBuilder retrofitBuilder;
     public RequestPlaceholder requestPlaceholder;
 
@@ -57,7 +58,7 @@ public class LoginActivity extends AppCompatActivity {
                                     Log.e("LOGING ERR 1", response.message());
                                     Log.e("response code : " , String.valueOf(response.code()));
                                 } else {
-                                    Toast.makeText(LoginActivity.this, "There was an error upon logging in the API", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(LoginActivity.this, "There was an error upon logging in the API 1", Toast.LENGTH_SHORT).show();
                                     Log.e("LOGING ERR 2", response.message());
                                 }
                             }else{
@@ -77,7 +78,7 @@ public class LoginActivity extends AppCompatActivity {
 
                         @Override
                         public void onFailure(Call<Login> call, Throwable t) {
-                            Toast.makeText(LoginActivity.this, "There was an error upon logging in the API", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(LoginActivity.this, "There was an error upon logging in the API 2", Toast.LENGTH_SHORT).show();
                             Log.e("LOGING ERR 2", t.getMessage());
                         }
                     });

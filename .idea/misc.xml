@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/honey joyce/dc-api-login-continue/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/honey joyce/dc-api-login-continue/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/honey joyce/dc-api-login-continue/app/src/main/res/layout/posts_recyclerview_layout.xml" value="0.25" />
         <entry key="..\:/Users/whitehat/AndroidStudioProjects/HoneyLoginAPI/app/src/main/res/drawable/background.xml" value="0.240625" />
         <entry key="..\:/Users/whitehat/AndroidStudioProjects/HoneyLoginAPI/app/src/main/res/drawable/button.xml" value="0.240625" />
         <entry key="..\:/Users/whitehat/AndroidStudioProjects/HoneyLoginAPI/app/src/main/res/drawable/inputs.xml" value="0.240625" />
